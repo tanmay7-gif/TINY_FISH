@@ -1,0 +1,21 @@
+{
+  "name": "hunar-backend",
+  "version": "1.0.0",
+  "description": "Hunar delivery backend: orders, mock courier, tracking, notifications",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "seed": "node src/seed.js",
+    "test": "node test/smoke.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "better-sqlite3": "^13.0.3",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "multer": "^2.4.0"
+  }
+}
